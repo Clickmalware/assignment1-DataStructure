@@ -1,0 +1,16 @@
+# DESIGN MEMO (write below in a comment):
+# 1. What core operations did you use (e.g., intersections, loops)? Why?
+I used loops to help determine duplicates and to find pair tags from comparing from input to a premade 
+list. This can be run faster by comparing two lists and helps organize data.  We created a temporary 
+list to store values that were looped in. Then we compared two lists with a loop to find common values. 
+This was extremely helpful to find common values across the two lists to determine pairs to recommend
+products with those same tags.  
+
+# 2. How might this code change if you had 1000+ products?
+I would try to find a way to break up or organize the data efficiently. The larger the list , the 
+longer it takes to run a process that checks again. I think I went about the properly that the
+ dataset was larger it should still function properly. You must remove duplicates before searching. 
+  I would do a better job at sanitizing the input to ensure that we get good input to get good output.  
+If we sanitize the input we can ensure we reduce errors, prevent threats, and code runs smoother. 
+Another good thing to do is error handling with a large dataset is important, if you can identify or 
+reduce errors or inform how to correct them is key.   
